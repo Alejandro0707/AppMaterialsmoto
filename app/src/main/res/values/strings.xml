@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Empresa Motos</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="registro">REGISTRO DE MOTOS</string>
+    <string name="cilindraje">Cilindraje</string>
+    <string name="tiene_freno">Freno de Disco</string>
+    <string name="no_tiene_freno">Sin Freno de Disco </string>
+    <string name="no">No</string>
+    <string name="si">Si</string>
+    <string name="tiene_luces">Luces Led</string>
+    <string name="no_tiene_luces">No Tiene Luces Led</string>
+    <string name="borrar">Eliminar</string>
+    <string name="agregar">Añadir</string>
+    <string name="uno">2013</string>
+    <string name="dos">2014</string>
+    <string name="tres">2015</string>
+    <string name="cuatro">2016</string>
+    <string name="cinco">2017</string>
+    <string-array name="opciones_modelo">
+        <item>@string/uno</item>
+        <item>@string/dos</item>
+        <item>@string/tres</item>
+        <item>@string/cuatro</item>
+        <item>@string/cinco</item>
+    </string-array>
+    <string name="nom_uno">150cc</string>
+    <string name="nom_dos">200cc</string>
+    <string name="nom_tres">500cc</string>
+    <string-array name="opciones_cilindraje">
+        <item>@string/nom_uno</item>
+        <item>@string/nom_dos</item>
+        <item>@string/nom_tres</item>
+    </string-array>
+    <string-array name="titulos">
+        <item>@string/placa</item>
+        <item>@string/modelo</item>
+        <item>@string/precio</item>
+    </string-array>
+
+    <!--  ERRORES  -->
+    <string name="error_existente">La placa ya esta en Inventario</string>
+    <string name="error_reserva">Digite cantidad Reserva Lts</string>
+    <string name="error_precio">Digite el precio</string>
+    <string name="error_cilindraje">Solo pueden escoger 3 motos por pedido</string>
+
+    <!--  MENSAJES  -->
+    <string name="mensaje_exitoso_guardar">Agregado correctamente</string>
+
+    <!--  INTERFAZ DETALLES  -->
+    <string name="moto">Moto</string>
+    <string name="modelo">Año Modelo</string>
+    <string name="placa">placa</string>
+    <string name="precio">Precio</string>
+</resources>
